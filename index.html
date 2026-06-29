@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sozib | Digital Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='70' font-family='Arial, sans-serif' font-size='50' font-weight='bold' fill='%23000000' text-anchor='middle'%3ENeel%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <audio id="bg-music" loop>
+    <source src="Bangladesh.mp3" type="audio/mpeg">
+</audio>
+<div id="music-control" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; cursor: pointer; color: #00ffff;">
+    <i class="fas fa-volume-up" id="music-icon"></i>
+</div>
+
+    <body>
+    <div class="matrix-bg" id="matrix"></div> <!-- এটা যোগ করুন -->
+    <div class="cursor"></div>
+    <!-- বাকি কোড আগের মতোই থাকবে -->
+    
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <nav class="navbar">
+        <div class="nav-content">
+<div class="logo">
+    <span class="logo-bracket">&lt;</span>
+             SOZIB
+    <span class="logo-bracket">/&gt;</span>
+</div>
+    <ul class="nav-links">
+                <li><a href="#home" data-text="HOME">HOME</a></li>
+                <li><a href="#about" data-text="ABOUT">ABOUT</a></li>
+                <li><a href="#profile" data-text="PROFILE">PROFILE</a></li>
+                <li><a href="#education" data-text="EDUCATION">EDUCATION</a></li>
+                <li><a href="#skills" data-text="INTERESTS">INTERESTS</a></li>
+                <li><a href="#connect" data-text="CONNECT">CONNECT</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+<div class="breaking-news">
+    <div class="news-title">Notice</div>
+    <div class="news-content">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            আপনার নিউজ বা আপডেট এখানে লিখুন - আপনার ওয়েবসাইটের লেটেস্ট আপডেটগুলো এখানে প্রদর্শন করতে পারেন!
+        </marquee>
+    </div>
+</div>
+
+
+    <section id="home" class="hero">
+        <div class="grid-bg"></div>
+        <div class="hero-content">
+            <div class="glitch-wrapper">
+                <div class="glitch" data-text="SOZIB">SOZIB</div>
+            </div>
+            <div class="hero-subtitle">
+                <span class="typing-text"></span>
+                <span class="cursor-blink">|</span>
+            </div>
+<p class="hero-description" style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: nowrap;">
+    <span class="highlight">[</span> 
+    <span class="neon-pulse">Police Constable</span> 
+    <span class="highlight">]</span> 
+    <span class="separator">|</span> 
+    <span class="highlight">[</span> 
+    <span class="neon-pulse">Bangladesh Police</span> 
+    <span class="highlight">]</span>
+</p>
+            <p class="hero-quote">"Living simply, learning daily and staying real."</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">DEDICATION</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">24/7</div>
+                    <div class="stat-label">SERVICE</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">∞</div>
+                    <div class="stat-label">LEARNING</div>
+                </div>
+            </div>
+            <div class="cta-buttons">
+                <a href="#connect" class="btn-primary">
+                    <span>CONNECT</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#about" class="btn-secondary">
+                    <span>EXPLORE</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>SCROLL</span>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="title-number">01.</span>
+                <h2>ABOUT_ME</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="bio-section">
+                <p class="bio-text">"Not qualified enough to introduce myself, but still learning, growing & moving forward 🙂"</p>
+                <div class="profile-image-container">
+    <img src="Anonymous.gif" alt="" class="profile-img">
+</div>
+
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up">
+                    <div class="card-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>PROFESSIONAL</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Serving as a Police Constable with Bangladesh Police. Committed to maintaining law, order, and protecting the community with unwavering dedication.</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-header">
+                        <i class="fas fa-microchip"></i>
+                        <h3>TECH_ENTHUSIAST</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Passionate explorer of cutting-edge technology, software innovations, and digital services. Always staying ahead of the tech curve.</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-header">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>LIFESTYLE</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Passionate reader of novels and sports enthusiast. Loves cricket and football, actively plays cricket and badminton.</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="profile" class="profile-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="title-number">02.</span>
+                <h2>PROFILE_DATA</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="profile-grid">
+                <div class="profile-card-info">
+                    <div class="info-header">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>LOCATION</h3>
+                    </div>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <span class="label">Current:</span>
+                            <span class="value">Khagrachhari, Chittagong Division</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Hometown:</span>
+                            <span class="value">Dhaka, Bangladesh</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-card-info">
+                    <div class="info-header">
+                        <i class="fas fa-user"></i>
+                        <h3>PERSONAL</h3>
+                    </div>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <span class="label">Birthday:</span>
+                            <span class="value">November 26</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Status:</span>
+                            <span class="value">Married ❤️</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Spouse:</span>
+                            <span class="value">Rowshan Noor</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Since:</span>
+                            <span class="value">2019</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Son:</span>
+                            <span class="value">Aakif Hossain Rakeen</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-card-info">
+                    <div class="info-header">
+                        <i class="fas fa-language"></i>
+                        <h3>LANGUAGES</h3>
+                    </div>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <span class="label">Primary:</span>
+                            <span class="value">Bangla</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Secondary:</span>
+                            <span class="value">English</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="title-number">03.</span>
+                <h2>EDUCATION</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024</div>
+                        <h3>Bachelor of Arts (B.A)</h3>
+                        <p class="institution">Bangladesh Open University</p>
+                        <p class="status">Graduated</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2015</div>
+                        <h3>Higher Secondary</h3>
+                        <p class="institution">Dhamrai Govt. University College, Dhamrai</p>
+                        <p class="status">Passed</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2013</div>
+                        <h3>Secondary School</h3>
+                        <p class="institution">Warshi Paikpara M. Yasin & Younus Khan High School</p>
+                        <p class="status">Batch 2013</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="title-number">04.</span>
+                <h2>INTERESTS</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-gun"></i>
+                    </div>
+                    <h4>SHOOTING</h4>
+                    <p>Pistol practice & training</p>
+                    <div class="skill-level">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h4>READING</h4>
+                    <p>Novels & literature</p>
+                    <div class="skill-level">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-baseball-ball"></i>
+                    </div>
+                    <h4>CRICKET</h4>
+                    <p>Watching & playing</p>
+                    <div class="skill-level">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h4>FOOTBALL</h4>
+                    <p>Sports enthusiast</p>
+                    <div class="skill-level">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                            <path d="M12 2L8 8L12 10L16 8L12 2M12 10L8 12L10 16L12 14L14 16L16 12L12 10M10 16L8 18L10 22L12 20L14 22L16 18L14 16L12 18L10 16Z"/>
+                        </svg>
+                    </div>
+                    <h4>BADMINTON</h4>
+                    <p>Active player</p>
+                    <div class="skill-level">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h4>TECHNOLOGY</h4>
+                    <p>Latest tech news & innovations</p>
+                    <div class="skill-level">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="connect" class="connect-section">
+        <div class="container">
+            <div class="section-title">
+                <span class="title-number">05.</span>
+                <h2>CONNECT</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="social-grid">
+                <a href="https://facebook.com/mr.neeel" target="_blank" class="social-card facebook">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>FACEBOOK</h3>
+                            <p class="username">@mr.neeel</p>
+                            <p class="description">Connect for updates</p>
+                        </div>
+                        <div class="card-indicator">
+                            <div class="hexagon"></div>
+                        </div>
+                    </div>
+                    <div class="card-border"></div>
+                </a>
+
+                <a href="https://instagram.com/mr.neeel" target="_blank" class="social-card instagram">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>INSTAGRAM</h3>
+                            <p class="username">@mr.neeel</p>
+                            <p class="description">Daily inspiration</p>
+                        </div>
+                        <div class="card-indicator">
+                            <div class="hexagon"></div>
+                        </div>
+                    </div>
+                    <div class="card-border"></div>
+                </a>
+
+                <a href="https://x.com/mr_neeel" target="_blank" class="social-card twitter">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="social-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </div>
+                        <div class="social-info">
+                            <h3>X (TWITTER)</h3>
+                            <p class="username">@mr_neeel</p>
+                            <p class="description">Tech updates</p>
+                        </div>
+                        <div class="card-indicator">
+                            <div class="hexagon"></div>
+                        </div>
+                    </div>
+                    <div class="card-border"></div>
+                </a>
+
+                <a href="https://snapchat.com/add/mr.n33l" target="_blank" class="social-card snapchat">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <div class="social-icon">
+                            <i class="fab fa-snapchat-ghost"></i>
+                        </div>
+                        <div class="social-info">
+                            <h3>SNAPCHAT</h3>
+                            <p class="username">@mr.n33l</p>
+                            <p class="description">Daily stories</p>
+                        </div>
+                        <div class="card-indicator">
+                            <div class="hexagon"></div>
+                        </div>
+                    </div>
+                    <div class="card-border"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                <p>&copy; 2026 SOZIB. ALL RIGHTS RESERVED.</p>
+                <p class="footer-tagline">SERVING WITH DEDICATION <span class="pulse">●</span></p>
+            </div>
+            <div class="footer-links">
+                <a href="#home"><i class="fas fa-arrow-up"></i> BACK TO TOP</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
