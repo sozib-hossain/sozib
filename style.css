@@ -1416,3 +1416,27 @@ marquee {
         text-shadow: 0 0 10px var(--primary), 0 0 20px var(--primary), 0 0 30px var(--primary);
     }
 }
+/* Telegram Chat Button Style */
+.telegram-chat-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    background-color: #0088cc; /* টেলিগ্রামের নিজস্ব রং */
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s;
+    text-decoration: none;
+}
+
+.telegram-chat-btn:hover {
+    transform: scale(1.1);
+    background-color: #0077b5;
+}
